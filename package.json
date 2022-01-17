@@ -1,0 +1,21 @@
+{
+  "name": "fris-api",
+  "version": "1.0.0",
+  "description": "API for FRIS 2022",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -e html,js -x node -r dotenv/config index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian van Ommeren",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^11.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "glob": "^7.2.0",
+    "pg": "^8.7.1"
+  }
+}
